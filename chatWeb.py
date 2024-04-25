@@ -9,8 +9,7 @@ col3, col4 = st.columns(2)
 with col1:
     name = st.text_area(label="Your Name")
 
-with col2:
-    key = st.text_area(label="Enter Your Key")
+key = "sk-proj-dneCSt7nykbPyGV8Nw5MT3BlbkFJ4vZxeWMfYKJsnX6B6RNo"
 
 url = st.text_area(label="Enter URL.....")
 
