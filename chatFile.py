@@ -13,14 +13,7 @@ text = ''
 vectoreStore= ''
 vectoreStoreURL = None
 vectoreStorePDF = None
-"""owner_data = "Owner - Mayank"
-embedding = OpenAIEmbeddings()
-vectoreStore = FAISS.from_documents(owner_data, embedding)"""
 
-'''
-agent = OpenAI(temperature = 1)
-conv = RetrievalQAWithSourcesChain(llm=agent,retriever = vectoreStore.as_retriever(), memory=ConversationSummaryMemory())
-'''
 def web(urls):
     global vectoreStoreURL, conv, agent, url
     try:
@@ -87,8 +80,3 @@ def chatnew(chat):
     response = conv({"question": chat}, return_only_outputs=True)
     answer = response['answer']
     return answer
-"""
-web("https://en.wikipedia.org/wiki/French_Revolution")
-chat_connection()
-print(chatnew("hi"))
-"""
