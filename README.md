@@ -1,7 +1,3 @@
-Here's a README for your project:  
-
----
-
 ## URL-Chat  
 
 URL-Chat is a Python-based application that allows users to input an OpenAI API key and a URL. The program then parses the content of the given URL, enabling interactive conversations based on its extracted data.  
@@ -46,7 +42,3 @@ You'll be able to chat with the extracted content from the given URL.
 
 ### 📜 License  
 This project is open-source under the MIT License.  
-
----
-
-Let me know if you want any modifications! 🚀
